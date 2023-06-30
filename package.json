@@ -16,8 +16,8 @@
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "test:coverage": "npm run test -- --coverage --watchAll=false",
     "api": "json-server --watch db.json --port 8080",
-    "format": "prettier --write \"src/**/*{.js,.jsx}\"",
-    "lint": "eslint \"src/**/*{.js,.jsx}\" --quiet",
+    "format": "prettier --write \"src/*/{.js,.jsx}\"",
+    "lint": "eslint \"src/*/{.js,.jsx}\" --quiet",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
